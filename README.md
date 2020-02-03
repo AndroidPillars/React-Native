@@ -137,14 +137,3 @@ return (
     
     );
     
- -----------------------------------------------------
- 
- return <View>
-   
-    <Text style={styles.text}>HelloWorld!!!</Text>
-    
-    {mTxtHello}
-    
-    </View>
-    
-

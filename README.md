@@ -12,6 +12,12 @@ For Windows,
 - In Mobile Device	-> Download Expo app from playstore -> Scan the QR Code
 - ctrl+c			-> Close
 
+# Reference Website
+
+- https://expo.io/learn
+- https://facebook.github.io/react-native/docs/getting-started
+
+
 # React Component File
 
 - Part 1 -> Import library we need to create component

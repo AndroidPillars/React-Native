@@ -2,27 +2,15 @@
 
 # Installation
 
-- Intsall Node 		      -> https://nodejs.org/en/download/
-- Install npm  		      -> https://www.npmjs.com/get-npm 	-> npm install npm@latest -g
-- Intsall npm(expo)  	  -> project repository 			-> npm install -g expo-cli 
-- ctrl+c			          -> Close
-- expo start		        -> Start the Project
-- expo start --android	-> Start the Project in Android
+# For Windows,
 
-# Issues while doing Installation
-
-- Lower version issue 		  -> npm install --save core-js@3
-- Found 15 vulnerabilities 	-> npm audit fix --force
-
-# Step by Step Installation
-
-- Downlaod the m-master.zip
-- project repository -> install npm
-- npm Start
-- Download expo app from playstore
-- Scan the QR Code
-- ctrl+c -> to stop the RN bundler
-- npm start or expo start -> to start again
+- Visit			-> https://expo.io/learn
+- Install Node		-> https://nodejs.org/en/download/
+- Cmd Prompt		-> npm install expo-cli --global
+- Required Folder 	-> Open Cmd Prompt -> expo init my-new-project name -> Choose a template: expo-template-blank
+- Project path		-> Cmd Prompt -> npm start
+- In Mobile Device	-> Download Expo app from playstore -> Scan the QR Code
+- ctrl+c			-> Close
 
 # React Component File
 

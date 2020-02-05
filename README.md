@@ -2,7 +2,7 @@
 
 # Installation
 
-# For Windows,
+For Windows,
 
 - Visit			-> https://expo.io/learn
 - Install Node		-> https://nodejs.org/en/download/

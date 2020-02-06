@@ -139,4 +139,11 @@ return (
     {mTxtHello}
     </View>
     );
-    ```
+```
+ or
+```ruby
+return <View>
+    <Text style={styles.text}>HelloWorld!!!</Text>
+    {mTxtHello}
+    </View>
+```

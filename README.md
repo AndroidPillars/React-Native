@@ -26,7 +26,7 @@ expo start --android	-> Start the Project in Android
 ```
 
 
-# Common Error's
+# Common Errors
 
 - warn Package react-native-gesture-handler has been ignored because it contains invalid configuration. Cannot find module 'react-native-gesture-handler\package.json',
 ```ruby

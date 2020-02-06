@@ -22,10 +22,10 @@ For Windows,
 
 - Part 1 -> Import library we need to create component
 
+```ruby
 import React from "react";
-
 import { Text, StyleSheet } from "react-native";
-
+```
 - Part 2 -> Create a component - function that returns some 'JSX'
 
 Normal Function:

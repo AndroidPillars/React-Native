@@ -32,77 +32,58 @@ import { Text, StyleSheet } from "react-native";
 Normal Function:
 
 const HomeScreen = function() {
-
   return <Text style={styles.text}>HelloWorld!!!</Text>;
-  
 };
 
 Arrow Function:
 
 const HomeScreen = () => {
-
-  return <Text style={styles.text}>HelloWorld!!!</Text>;
-  
+  return <Text style={styles.text}>HelloWorld!!!</Text>; 
 };
 
 Inline Style:
 
 const HomeScreen = () => {
-
-  return <Text style={{fontSize: 30}}>HelloWorld!!!</Text>;
-  
+  return <Text style={{fontSize: 30}}>HelloWorld!!!</Text>;  
 };
 
 
 Note: Semicolon is not necessary.
-
 ```
 
 - Part 3 -> Create a Style sheet to create our component.
 
+```ruby
 const styles = StyleSheet.create({
-
   text: {
-  
-    fontSize: 30
-    
-  }  
-  
+    fontSize: 30 
+  } 
 });
+```
 
 - Part 4 -> Export the Component so that we caan use it else where in our project.
-
+```ruby
 export default HomeScreen;
+```
 
 # Showing Custom Component
 
 - Open App.js 
 - import ComponentScreen from "./src/screens/ComponentScreen";
-
+```ruby
   const navigator = createStackNavigator(
-
   {
-  
     Home: HomeScreen,
-    
-    Components: ComponentScreen
-    
+    Components: ComponentScreen 
   },
-  
   {
-  
     initialRouteName: "Components",
-    
     defaultNavigationOptions: {
-    
       title: "App"
-      
     }
-    
   }
-  
 );
-
+```
 # Common Questions and Answers
 
 - Primitive Elements -> Text, View, Image and Button,.. etc..
@@ -122,15 +103,11 @@ export default HomeScreen;
 
 # Common Errors
 
+```ruby
 return (
-
     <View>
-    
     <Text style={styles.text}>HelloWorld!!!</Text>
-    
     {mTxtHello}
-    
     </View>
-    
     );
-    
+    ```

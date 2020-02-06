@@ -28,6 +28,7 @@ import { Text, StyleSheet } from "react-native";
 ```
 - Part 2 -> Create a component - function that returns some 'JSX'
 
+```ruby
 Normal Function:
 
 const HomeScreen = function() {
@@ -54,6 +55,8 @@ const HomeScreen = () => {
 
 
 Note: Semicolon is not necessary.
+
+```
 
 - Part 3 -> Create a Style sheet to create our component.
 

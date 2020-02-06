@@ -16,7 +16,36 @@ For Windows,
 
 - https://expo.io/learn
 - https://facebook.github.io/react-native/docs/getting-started
+- https://git-scm.com/
 
+# Commands to get Remember
+
+```ruby
+expo start		-> Start the Project
+expo start --android	-> Start the Project in Android
+```
+
+
+# Common Error's
+
+- warn Package react-native-gesture-handler has been ignored because it contains invalid configuration. Cannot find module 'react-native-gesture-handler\package.json',
+```ruby
+npm uninstall react-native-gesture-handler --save
+npm install react-native-gesture-handler --save
+```
+- npm ERR! code ENOENT npm ERR! syscall spawn git npm ERR! path git,
+
+Have to Install the Git
+
+- Found 15 vulnerabilities
+```ruby
+npm audit fix --force
+```
+- For adding Navigation,
+
+```ruby
+expo install react-navigation react-native-gesture-handler@1.3.0 react-native-reanimated react-native-screens react-navigation-stack react-native-safe-area-context @react-native-community/masked-view
+```
 
 # React Component File
 

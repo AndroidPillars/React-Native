@@ -161,3 +161,33 @@ const styles = StyleSheet.create({});
 
 export default ListScreen;
 ```
+# Building List
+
+- primitive Element -> FlatList Element
+- It take in a array of records and turn it in to some list and display
+- Props -> Props are configuration options we specify when we write it out a JSX element.
+- Two Props 
+- 1. Data -> Array of data  so that it will turn in to a collection of elements to show on the Screen.
+- 2. RenderItem -> Function that will turn each individual item in to an Element.
+- Note: Behaviour with out a key being provided gives warning. 
+- For that we have to assign a key which it must be a string and also it should be unique.
+
+# Button
+
+- It has self closing Tag
+
+# Touchable Opacity(i.e) Customizable Component
+
+- Alternative widgets to Button
+
+# Props
+
+- It has lot of properties which we can navigate from one screen to another From React Naivgation Stack 
+Navigator to Required Screens. 
+- In Other words system to pass data from a parent to child.
+- Work Flow: React Naivgation Stack Navigator -> props -> Navigator to Required Screens 
+
+# State
+
+- System to track a piece of data that will change over time. If that data changes, our app will 'rerender'.
+

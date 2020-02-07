@@ -191,3 +191,12 @@ Navigator to Required Screens.
 
 - System to track a piece of data that will change over time. If that data changes, our app will 'rerender'.
 
+# Notes on State
+
+- We are using function-based state in a functional component. React also has class based components that have to access state.
+- We never modify a state variable . React doesn't detect the change, Only use the 'setter' function.
+- We can name the state variable anything we wish.
+- We can track any kind of data that changes over time - a number, string, array of objects, ect
+- When a component is rendered, all of its children get renendered to.
+- A state variable can be passed to a child component ! At that time, the state variable is being used as props.
+

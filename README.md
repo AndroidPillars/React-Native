@@ -200,3 +200,28 @@ Navigator to Required Screens.
 - When a component is rendered, all of its children get renendered to.
 - A state variable can be passed to a child component ! At that time, the state variable is being used as props.
 
+# Layout Systems
+
+# Box Object Model
+
+- Properties like Border, Margin, Padding and the Width and Height of some element. We
+use this to affect the positioning of single element.
+- Content -> Padding -> Border -> Margin
+- Height  -> paddingTop -> borderTopWidth -> marginTop
+- For Parent -> alignItems, justifyContent and flexDirection
+- Short Cuts -> margin, marginVertical, marginHorizontal, padding, paddingVertical, paddingHorizontal and borderWidth
+
+# Flex Box
+
+- The Flex Box system is considered from how we layout some number of child elements that has own number of common parent. We use this to position mulitple elements with a common parent. 
+- For Child  -> flex, alignSelf
+
+# Position
+
+- How to position a element inside of a child. One single child inside of a parent. We use 
+this to override Box object model + Flex Box
+- Apply box object model Class -> Is position 'absolute'
+- No -> Apply all flex box rules, Considering siblings -> place element inside parent -> Apply top, left, right and bottom
+- Yes -> Apply some flex box rules, ignore all siblings -> Apply top, left, right and bottom
+
+

@@ -266,4 +266,22 @@ npm install react-navigation-stack @react-native-community/masked-view
 npm start -c
 ```
 
+# Still Errors?
+
+- If you are still seeing errors and complaints about packages, do the following:
+```ruby
+rm -r node_modules
+rm package-lock.json
+expo upgrade
+npm start -c
+```
+
+# Update Imports
+
+- Our imports in the upcoming lecture will now look like this:
+```ruby
+import { createAppContainer } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
+```
+
 

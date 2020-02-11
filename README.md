@@ -17,6 +17,7 @@ For Windows,
 - https://expo.io/learn
 - https://facebook.github.io/react-native/docs/getting-started
 - https://git-scm.com/
+- https://www.yelp.com/fusion
 
 # Commands to get Remember
 
@@ -223,5 +224,13 @@ this to override Box object model + Flex Box
 - Apply box object model Class -> Is position 'absolute'
 - No -> Apply all flex box rules, Considering siblings -> place element inside parent -> Apply top, left, right and bottom
 - Yes -> Apply some flex box rules, ignore all siblings -> Apply top, left, right and bottom
+
+# expo-cli
+
+- Adds in a ton of default config to use features common in apps, like icons, videos, better camera use, etc
+
+# react-native-cli
+
+- Defualt CLI to generate a project. Requires a lot of work to add in common Features.
 
 

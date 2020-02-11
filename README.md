@@ -233,4 +233,16 @@ this to override Box object model + Flex Box
 
 - Defualt CLI to generate a project. Requires a lot of work to add in common Features.
 
+# Documentation for the Search API
+
+- https://www.yelp.com/fusion
+- Create the account using VPN
+- Get Started -> Create New App -> Save Client ID and API Key
+- Menu -> Business Endpoints -> Business Search, Business Details
+
+# React Navigation Library
+
+- React Navigation Library provides us a couple of different objects for navigating users around an App.
+- In particular three important objects -> Stack Navigator, Bottom Tab Navigator and Drawer Navigator.
+
 

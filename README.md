@@ -245,4 +245,25 @@ this to override Box object model + Flex Box
 - React Navigation Library provides us a couple of different objects for navigating users around an App.
 - In particular three important objects -> Stack Navigator, Bottom Tab Navigator and Drawer Navigator.
 
+# React Navigation Fix
+
+- React Navigation has recently released a major update to v5 with breaking changes. We will not be using this version and will instead continue to use the current stable v4 release (As of now at v4.1.1)
+
+1. Install React Navigation
+```ruby
+npm install react-navigation
+```
+2. Install Dependencies
+```ruby
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+```
+3. Install React Navigation Stack
+```ruby
+npm install react-navigation-stack @react-native-community/masked-view
+```
+4. Start the app and clear cache with 
+```ruby
+npm start -c
+```
+
 

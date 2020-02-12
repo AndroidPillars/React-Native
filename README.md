@@ -221,9 +221,28 @@ use this to affect the positioning of single element.
 
 - How to position a element inside of a child. One single child inside of a parent. We use 
 this to override Box object model + Flex Box
+
+# Layout  Systems
+
 - Apply box object model Class -> Is position 'absolute'
 - No -> Apply all flex box rules, Considering siblings -> place element inside parent -> Apply top, left, right and bottom
-- Yes -> Apply some flex box rules, ignore all siblings -> Apply top, left, right and bottom
+- Yes -> Apply some flex box rules, ignore all siblings -> Apply top, left, right and bottom.
+
+# Parent Properties
+
+- alignItems -> Similar to MatchParent and WrapContent.
+- JustifyContent -> similar to that of setting gravity.
+- flexDirection -> Indicates horizontal and Vertical position.
+
+# Child Properties
+
+- flex -> Similar to that of weight .
+- alignself -> Similar to that of MatchParent and WrapContent also think that of parent right(i.e)It override the parent element.
+
+# Position Properties
+
+- position -> Similar to that of Frame Layout, Relative Layout and Linear Layout.
+- top,bottom,left and Right -> Similar to that of margin.
 
 # expo-cli
 

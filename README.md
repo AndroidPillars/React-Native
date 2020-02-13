@@ -332,3 +332,18 @@ import { createStackNavigator } from 'react-navigation-stack';
 - It is a Hook or essentially a function that allows us to run some snippet of code, one time 
 when ever the component is first rendered to the screen.
 
+# useState's Second Argument
+
+```ruby
+useState(() => {})
+```
+- Run the arrow function every time the component is rendered.
+```ruby
+useState(() => {}, [])
+```
+- Run the arrow function only when the component is first rendered.
+```ruby
+useState(() => {}, [value])
+```
+- Run the arrow function only when the component is first rendered, and when the 'value' changes.
+

@@ -302,5 +302,33 @@ npm start -c
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 ```
+# Icon Listing
 
+- https://github.com/expo/vector-icons
+
+# Network Request
+
+- The two things used for to make a network request in ReactNative is fetch and axios
+
+# fetch 
+
+- Built in Function for making network request.
+- Error handling is a bit weird.
+- Requires us to write a lot of wrapper code to make it work 'sensibly'.
+
+# axios
+
+- Seperate library for making request.
+- Easy to use, Sensible defaults.
+- Little bit increase our App size.
+- In Project Folder -> Open cmd prompt npm install axios
+
+# Hook
+
+- Hook is a function that adds in some new type of functionality to the function component.
+
+# useEffect 
+
+- It is a Hook or essentially a function that allows us to run some snippet of code, one time 
+when ever the component is first rendered to the screen.
 

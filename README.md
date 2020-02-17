@@ -347,3 +347,25 @@ useState(() => {}, [value])
 ```
 - Run the arrow function only when the component is first rendered, and when the 'value' changes.
 
+# Reducers
+
+- Functions that manages changes to an object.
+- Arguement #1 -> Object that has all of our state in it. -> {red:0, green:0, blue:0}
+- Arguement #2 -> Object that describes the update that we want to make.->{colorToChange:'red', amount: 15}
+- We look at Arguement #2 and use it to decide how to change Arguement #1.
+- Two technicalities - (1) We never change Arguement #1 directly, (2) We must always return a value to be used as Arguement #1
+
+# Community Convention in Reducers
+
+- Our Action Object Head,
+```ruby
+{ colorToChange: 'red', amount: 15 }
+```
+Usually, by Convention, we'll use instead,
+```ruby
+{ type:'change_red', payload: 15 }
+```
+where, 
+type -> String that dessribes that extact change operation we want to make.
+payload -> Some data that is critical to the change Operation.
+

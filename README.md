@@ -1,4 +1,4 @@
-# React-Native
+# React-Native Basics
 
 # Installation
 

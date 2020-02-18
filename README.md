@@ -1,5 +1,23 @@
 # React-Native Basics
 
+# React Native
+
+- It is an amazing technology that allows you to build real native apps which you can ship to the Apple App Store and the 
+Google Play Store with the help of Javacript and React library.
+
+# React.js
+
+- It is a javascript library for building user interfaces.
+- Typically used for Web Development.
+- ReactDOM.render(...) adds the web support.
+- React itself is Platform agnostic.
+
+# React Native
+
+- It is a seperate library which in the end is a collection of special React components it gives you, so a collection of components you can use in your React app and these components are special because React Native  actually knows how to translate them, how to compile these components to native widgets for ios and Android. So React Native kind of is like React DOM, it knows how to talk to native platform, to Android and iOS and how to render native widgets and it gives a bunch of these widgets as React components so that you can build a user interface with these compilable components(i.e)you won't be able to use your regular divs and h1 and paragraph tags in React Native because there are no equivalents for that in Native Code. But beside giving you this components, React Native is a bit more than that, it also gives access to some native platform APIs, For example it helps us to use the device camera, common tasks you would want to do in Native Apps and in general React Native gives you to tools to connect javascript code to native platform code because
+you typically build a React Native app by mostly writting Javascript code or depending on the app you're building, by entirely writing Javascript. 
+
+
 # Installation
 
 For Windows,

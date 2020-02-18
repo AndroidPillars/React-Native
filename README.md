@@ -1,5 +1,3 @@
-# React-Native Basics
-
 # React Native
 
 - It is an amazing technology that allows you to build real native apps which you can ship to the Apple App Store and the 

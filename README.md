@@ -29,6 +29,42 @@ for iOS and Google Play for Android. So you get a real native mobile app as a re
 - Connects Javascript and Native Platform Code.
 - React.js + React Native = React Native Mobile Apps.
 
+# Expo vs React Native CLI
+
+- For Creating React Native app -> Two Options -> Expo CLI and React Native CLI.
+
+# Expo CLI
+
+- It is the third-party service which is completely free to use.
+- It gives you a kind of "Managed App Development" work flow.
+- Lots of Convenience & Utility Features: Simplifies Development.
+- Adds in a ton of default config to use features common in apps, like icons, videos, better camera use, etc
+- But, you are limited to the Expo Ecosystem.
+
+# Advantages
+
+- Setting up a project is easy and can be done in minutes
+- You (and other people) can open the project while you're working on it
+- Sharing the app is easy (via QR-code or link), you don't have to send the whole .apk or .ipa file
+- No build necessary to run the app
+- Integrates some basic libraries in a standard project (Push Notifications, Asset Manager,...)
+- You can eject it to ExpoKit and integrate native code continuing using some of the Expo features, but not all of them
+- Expo can build .apk and .ipa files (distribution to stores possible with Expo)
+
+# Disadvantages
+
+- You can't add native modules (probably a gamechanger for some)
+- You can't use libraries that use native code in Objective-C/Java
+- The standard Hello World app is about 25MB big (because of the integrated libraries)
+- If you want to use: FaceDetector, ARKit o Payments you need to eject it to ExpoKit
+- Ejecting it to ExpoKit has a trade-off of features of Expo, e.g. you cannot share via QR code
+- When ejecting to ExpoKit you are limited to the react native version that is supported by ExpoKit at that point in time
+- Debugging in ExpoKit (with native modules) is a lot more complicated, since it mixes two languages and different libraries (no official Expo support anymore)
+
+# React Native CLI
+
+- Defualt CLI to generate a project. Requires a lot of work to add in common Features.
+
 # Installation
 
 For Windows,
@@ -272,14 +308,6 @@ this to override Box object model + Flex Box
 
 - position -> Similar to that of Frame Layout, Relative Layout and Linear Layout.
 - top,bottom,left and Right -> Similar to that of margin.
-
-# expo-cli
-
-- Adds in a ton of default config to use features common in apps, like icons, videos, better camera use, etc
-
-# react-native-cli
-
-- Defualt CLI to generate a project. Requires a lot of work to add in common Features.
 
 # Documentation for the Search API
 

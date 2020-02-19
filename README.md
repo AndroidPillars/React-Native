@@ -63,6 +63,10 @@ for iOS and Google Play for Android. So you get a real native mobile app as a re
 
 # React Native CLI
 
+- React Native CLI was managed by React Native Team and React Native community.
+- Bare-bone Development, which means you get a native app, you need to install Android Studio and Xcode to build that app and you need
+to configure and manage a lot on your own.
+- Almost no Convenience or Utility Freatures(i.e) If you wanna to use some native device features like device camera, adding third party packages where the set up is quite complex.
 - Defualt CLI to generate a project. Requires a lot of work to add in common Features.
 
 # Installation

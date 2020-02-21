@@ -10,6 +10,12 @@
 - ReactDOM.render(...) adds the web support.
 - React itself is Platform agnostic.
 
+# DOM:
+
+ - DOM stands for Document Object Model. 
+ - It is the structure representation of all nodes in HTML document. 
+ - DOM provides a way for JavaScript to interact with every single node in an HTML document to manipulate it.
+
 # Why React Native
 
 - With React Native Framework, you can render UI for both iOS and Android platforms.

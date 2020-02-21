@@ -1,14 +1,22 @@
 # React Native
 
-- It is an amazing technology that allows you to build real native apps which you can ship to the Apple App Store and the 
-Google Play Store with the help of Javacript and React library.
+- React Native is a framework that builds a hierarchy of UI components to build the JavaScript code.
+- It has a set of components for both iOS and Android platforms to build a mobile application with native look and feel.
 
 # React.js
 
-- It is a javascript library for building user interfaces.
+- It is an open source JavaScript library to create user interfaces..
 - Typically used for Web Development.
 - ReactDOM.render(...) adds the web support.
 - React itself is Platform agnostic.
+
+# Why React Native
+
+- With React Native Framework, you can render UI for both iOS and Android platforms.
+- It is an open source framework, which could be compatible with other platforms like Windows or tvOS in the near future.
+- React Native Development is comparatively simple, quick and efficient.
+- React Native is a UI focused, which makes the apps load quickly and gives a smoother feel.
+- Gaint Companies like Facebook, Instagram, Skype, Airbnb, Tesla, Walmart, Baidu Mobile and Bloomberg developed their apps using React Native Framework.
 
 # React Native
 

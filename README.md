@@ -41,7 +41,7 @@ __In Simple Terms,__
 
 # Behind the Scenes
 
-- The JavaScript is the language weuse to build React Native Apps.
+- The JavaScript is the language we use to build React Native Apps.
 - Here, Components are compiled to real native widgets, to real native elements, to real native code.
 - JavaScript code where you manage your business logic will not be compiled. but, your views will be and that of course also means that 
 you typically get a great performance when buildibg React Native Apps.

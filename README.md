@@ -5,7 +5,7 @@
 
 # React.js
 
-- It is an open source JavaScript library to create user interfaces..
+- It is an open source JavaScript library to create user interfaces.
 - Typically used for Web Development.
 - ReactDOM.render(...) adds the web support.
 - React itself is Platform agnostic.

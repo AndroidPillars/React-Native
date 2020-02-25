@@ -39,6 +39,15 @@ __In Simple Terms,__
 - Connects Javascript and Native Platform Code.
 - React.js + React Native = React Native Mobile Apps.
 
+# Behind the Scenes
+
+- The JavaScript is the language weuse to build React Native Apps.
+- Here, Components are compiled to real native widgets, to real native elements, to real native code.
+- JavaScript code where you manage your business logic will not be compiled. but, your views will be and that of course also means that 
+you typically get a great performance when buildibg React Native Apps.
+
+![behind_scenes](https://user-images.githubusercontent.com/48873155/75210593-81f9ad00-57a7-11ea-8851-f21956cc0907.png)
+
 # Expo vs React Native CLI
 
 - For Creating React Native app -> Two Options -> Expo CLI and React Native CLI.

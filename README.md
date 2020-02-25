@@ -10,7 +10,7 @@
 - ReactDOM.render(...) adds the web support.
 - React itself is Platform agnostic.
 
-# DOM:
+# DOM
 
  - DOM stands for Document Object Model. 
  - It is the structure representation of all nodes in HTML document. 

@@ -48,6 +48,24 @@ you typically get a great performance when building React Native Apps.
 
 ![behind_scenes](https://user-images.githubusercontent.com/48873155/75210593-81f9ad00-57a7-11ea-8851-f21956cc0907.png)
 
+# Learning React Native
+
+- Getting started with React Native apps can be really hard work.
+- Generally, expo makes working with React Native pretty simple and fun but it's important to understand.
+- In React Native as a developer, we have to find out on which platform our code is running and then
+adjust our styles and logic according to that platform.
+- In React Native we have very little cross-platform styling of components -> So, We have to Style components on our own style or use third-party libraries.
+- Only we have only a basic set of pre-built components -> So, We have to build components on our own or 
+use third-party libraries.
+- For Creating responsive designs where our app looks good on different device sizes and Orientations -> So, We have to write code that is flexible(i.e)Create responsive designs on our own.
+
+# Drawbacks
+
+- New Versions every month.
+- Breaking changes do happen.
+- High Dependency on third-party packages that also change.
+- Bugs/ Workarounds required.
+
 # Expo vs React Native CLI
 
 - For Creating React Native app -> Two Options -> Expo CLI and React Native CLI.

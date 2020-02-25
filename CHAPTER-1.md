@@ -32,6 +32,8 @@ interface, then you get everything you need to compile a real native mobile app 
 you everything you need to then take a Javascript code and compile that to a real native mobile app which you can ship to the App Store
 for iOS and Google Play for Android. So you get a real native mobile app as a result at the end.
 
+![look_behind](https://user-images.githubusercontent.com/48873155/75274660-3f78b480-5829-11ea-8470-8f613e8ae4a2.png)
+
 __In Simple Terms,__
 - A collection of "special" React components.
 - Components compiled to Native Widgets.

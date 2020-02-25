@@ -52,7 +52,7 @@ you typically get a great performance when building React Native Apps.
 
 # 1.6.Comparing React Components with other Platforms
 
-![comparsion](https://user-images.githubusercontent.com/48873155/75272318-a85d2e00-5823-11ea-845c-8bd16ce853b4.png)
+![look_behind](https://user-images.githubusercontent.com/48873155/75276109-8cf62100-582b-11ea-94b4-7d2356b10646.png)
 
 # 1.7.Learning React Native
 

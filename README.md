@@ -94,7 +94,7 @@ For Windows,
 
 - Visit			-> https://expo.io/learn
 - Install Node		-> https://nodejs.org/en/download/
-- Cmd Prompt		-> For Windows, npm install expo-cli --global and For Mac, sudo npm install expo-cli --global
+- Cmd Prompt		-> __For Windows,__ npm install expo-cli --global and __For Mac__, sudo npm install expo-cli --global
 - Required Folder 	-> Open Cmd Prompt -> expo init my-new-project name -> Choose a template: expo-template-blank
 - Project path		-> Cmd Prompt -> npm start
 - In Mobile Device	-> Download Expo app from playstore -> Scan the QR Code

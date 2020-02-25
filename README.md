@@ -109,7 +109,7 @@ For Windows,
 - https://git-scm.com/
 - https://www.yelp.com/fusion
 
-# Commands to get Remember
+# Points to get Remember
 
 ```ruby
 expo start		-> Start the Project

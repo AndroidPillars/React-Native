@@ -66,6 +66,10 @@ use third-party libraries.
 - High Dependency on third-party packages that also change.
 - Bugs/ Workarounds required.
 
+# Requiremts
+
+- JavaScript + React Knowledge
+
 # Expo vs React Native CLI
 
 - For Creating React Native app -> Two Options -> Expo CLI and React Native CLI.

@@ -110,6 +110,21 @@ to configure and manage a lot on your own.
 - Almost no Convenience or Utility Freatures(i.e) If you wanna to use some native device features like device camera, adding third party packages where the set up is quite complex.
 - Defualt CLI to generate a project. Requires a lot of work to add in common Features.
 
+# Advantages
+
+- You can add native modules written in Java/Objective-C (probably the strongest feature)
+- You will be having control over the builds.
+
+# Disadvantages:
+
+- Needs Android Studio and XCode to run the projects
+- You can't develop for iOS without having a mac
+- Device has to be connected via USB to use it for testing
+- Fonts need to be imported manually in XCode
+- If you want to share the app you need to send the whole .apk / .ipa file
+- Does not provide JS APIs out of the box, e.g. Push-Notifications, Asset Manager, they need to be manually installed and linked with npm for example
+- Setting up a working project properly (inlcuding device configuration) is rather complicated and can take time.
+
 # Installation
 
 For Windows,

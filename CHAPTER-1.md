@@ -88,6 +88,8 @@ use third-party libraries.
 - Adds in a ton of default config to use features common in apps, like icons, videos, better camera use, etc
 - But, you are limited to the Expo Ecosystem.
 
+![expo_works](https://user-images.githubusercontent.com/48873155/75275942-4accdf80-582b-11ea-91b5-1279381eda62.png)
+
 # Advantages
 
 - Setting up a project is easy and can be done in minutes

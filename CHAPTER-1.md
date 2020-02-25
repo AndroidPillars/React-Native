@@ -72,7 +72,7 @@ use third-party libraries.
 - High Dependency on third-party packages that also change.
 - Bugs/ Workarounds required.
 
-# 1.9.Requiremts
+# 1.9.Requirements
 
 - JavaScript + React Knowledge
 

@@ -190,7 +190,8 @@ export default HomeScreen;
 
 # JSX
 
--  JavaScript extension, or more commonly JSX, is a React extension that allows us to write JavaScript that looks like HTML.
+- JavaScript extension, or more commonly JSX, is a React extension that allows us to write JavaScript that looks like HTML.
+- The JSX is translated to regular JavaScript at runtime.
 
 # Showing Custom Component
 

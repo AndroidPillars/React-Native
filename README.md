@@ -96,6 +96,7 @@ For Windows,
 - Install Node		-> https://nodejs.org/en/download/
 - Cmd Prompt		-> __For Windows,__ npm install expo-cli --global __and For Mac__, sudo npm install expo-cli --global
 - Required Folder 	-> Open Cmd Prompt -> expo init my-new-project name -> Choose a template: expo-template-blank
+- Enter the name as My_New_Project_Name ->  Use Yarn to install dependencies -> n
 - Project path		-> Cmd Prompt -> npm start
 - In Mobile Device	-> Download Expo app from playstore -> Scan the QR Code
 - ctrl+c			-> Close

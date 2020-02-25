@@ -115,6 +115,8 @@ For Windows,
 expo start		-> Start the Project
 expo start --android	-> Start the Project in Android
 ```
+- Visual Studio Code -> File -> Preferences -> Color Theme -> For Setting Theme
+- View -> Extensions -> Material Icon Theme -> Install
 
 
 # Common Errors

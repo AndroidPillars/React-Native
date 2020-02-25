@@ -100,6 +100,7 @@ For Windows,
 - Project path		-> Cmd Prompt -> npm start
 - In Mobile Device	-> Download Expo app from playstore -> Scan the QR Code
 - ctrl+c			-> Close
+- Now Install Visual Studio Code -> https://code.visualstudio.com/
 
 # Reference Website
 

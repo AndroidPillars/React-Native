@@ -54,7 +54,7 @@ you typically get a great performance when building React Native Apps.
 
 ![comparsion](https://user-images.githubusercontent.com/48873155/75272318-a85d2e00-5823-11ea-845c-8bd16ce853b4.png)
 
-# 1.6.Learning React Native
+# 1.7.Learning React Native
 
 - Getting started with React Native apps can be really hard work.
 - Generally, expo makes working with React Native pretty simple and fun but it's important to understand.
@@ -65,22 +65,22 @@ adjust our styles and logic according to that platform.
 use third-party libraries.
 - For Creating responsive designs where our app looks good on different device sizes and Orientations -> So, We have to write code that is flexible(i.e)Create responsive designs on our own.
 
-# 1.7.Drawbacks
+# 1.8.Drawbacks
 
 - New Versions every month.
 - Breaking changes do happen.
 - High Dependency on third-party packages that also change.
 - Bugs/ Workarounds required.
 
-# Requiremts
+# 1.9.Requiremts
 
 - JavaScript + React Knowledge
 
-# Expo vs React Native CLI
+# 1.10.Expo vs React Native CLI
 
 - For Creating React Native app -> Two Options -> Expo CLI and React Native CLI.
 
-# Expo CLI
+# 1.10.1.Expo CLI
 
 - It is the third-party service which is completely free to use.
 - It gives you a kind of "Managed App Development" work flow.
@@ -108,7 +108,7 @@ use third-party libraries.
 - When ejecting to ExpoKit you are limited to the react native version that is supported by ExpoKit at that point in time
 - Debugging in ExpoKit (with native modules) is a lot more complicated, since it mixes two languages and different libraries (no official Expo support anymore)
 
-# React Native CLI
+# 1.10.2.React Native CLI
 
 - React Native CLI was managed by React Native Team and React Native community.
 - Bare-bone Development, which means you get a native app, you need to install Android Studio and Xcode to build that app and you need
@@ -131,7 +131,7 @@ to configure and manage a lot on your own.
 - Does not provide JS APIs out of the box, e.g. Push-Notifications, Asset Manager, they need to be manually installed and linked with npm for example
 - Setting up a working project properly (inlcuding device configuration) is rather complicated and can take time.
 
-# Installation
+# 1.11.Installation
 
 For Windows,
 
@@ -145,19 +145,19 @@ For Windows,
 - ctrl+c			-> Close
 - Now Install Visual Studio Code -> https://code.visualstudio.com/
 
-# Documentation References
+# 1.12.Documentation References
 
 - https://expo.io/learn
 - https://facebook.github.io/react-native/docs/getting-started
 
-# Tools References
+# 1.13.Tools References
 
 - https://git-scm.com/
 - https://www.yelp.com/fusion
 
 
 
-# Points to get Remember
+# 1.14.Points to get Remember
 
 ```ruby
 expo start		-> Start the Project
@@ -167,7 +167,7 @@ expo start --android	-> Start the Project in Android
 - View -> Extensions -> Material Icon Theme -> Install
 
 
-# Common Errors
+# 1.15.Common Errors
 
 - warn Package react-native-gesture-handler has been ignored because it contains invalid configuration. Cannot find module 'react-native-gesture-handler\package.json',
 ```ruby

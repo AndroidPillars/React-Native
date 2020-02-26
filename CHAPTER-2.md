@@ -29,6 +29,16 @@
 - Don’t call Hooks inside loops, conditions, or nested functions — Only call Hooks at the top level.
 - Don’t call Hooks from regular JavaScript functions — Only call Hooks from React function components.
 
+# React Components
+
+- A component is a very basic element in react-native we can divide the large application into many small Components. 
+- This makes development fast and maintains the code very clear to understand.
+- Native knows how to translate, how to compile them to Native platform widgets.
+- We can build own components but these then also in the end has to be made of these built-in components.
+- Core Components -> View, Button, TextInput and image -> these are some components.
+
+
+
 
 # React Component File
 

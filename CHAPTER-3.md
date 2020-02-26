@@ -86,8 +86,7 @@ const styles = StyleSheet.create({
 - The FlatList shows only those renders elements which are currently displaying on the screen, not all the elements of the list at once.
 - The FlatList component takes two required props: data and renderItem.
 - The data is the source of elements for the list, and renderItem takes one item from the source and returns a formatted component to render.
-__Read the Documentation in__
-- https://reactnative.dev/docs/components-and-apis
+__Read the Documentation in__ https://reactnative.dev/docs/components-and-apis
 
 ```ruby
 import React, { useState } from "react";

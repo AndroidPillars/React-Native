@@ -4,6 +4,12 @@
 - In Other words, JavaScript extension, or more commonly JSX, is a React extension that allows us to write JavaScript that looks like HTML.
 - The JSX is translated to regular JavaScript at runtime.
 
+```ruby
+    <View>
+    <Text style={styles.text}>HelloWorld!!!</Text>
+    </View>
+```
+
 # React Hooks
 
 - Hook is a function that adds in some new type of functionality to the function component.
@@ -113,7 +119,6 @@ export default HomeScreen;
 return (
     <View>
     <Text style={styles.text}>HelloWorld!!!</Text>
-    {mTxtHello}
     </View>
     );
 ```
@@ -121,7 +126,6 @@ return (
 ```ruby
 return <View>
     <Text style={styles.text}>HelloWorld!!!</Text>
-    {mTxtHello}
     </View>
 ```
 # BoilerPlate Code

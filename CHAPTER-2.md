@@ -44,6 +44,38 @@
 - Don’t call Hooks inside loops, conditions, or nested functions — Only call Hooks at the top level.
 - Don’t call Hooks from regular JavaScript functions — Only call Hooks from React function components.
 
+# Use State
+
+- The useState hook which allows us to manage state in a functional component.
+
+```ruby
+import React, { useState } from "react";
+import { StyleSheet, Text, View, Button } from "react-native";
+
+export default function App() {
+  const [outputText, setOutputText] = useState("Default value of the Text");
+
+  return (
+    <View style={styles.container}>
+      <Text>{outputText}</Text>
+      <Button
+        title="Change Text"
+        onPress={() => setOutputText("Changed value of the Text")}
+      />
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center"
+  }
+});
+```
+
 # React Components
 
 - A component is a very basic element in react-native we can divide the large application into many small Components. 

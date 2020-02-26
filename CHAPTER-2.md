@@ -1,3 +1,28 @@
+# JSX
+
+- JSX stands for JavaScript XML. With React, it's an extension for XML-like code for elements and components.
+- In Other words, JavaScript extension, or more commonly JSX, is a React extension that allows us to write JavaScript that looks like HTML.
+- The JSX is translated to regular JavaScript at runtime.
+
+# React Hooks
+
+- Hook is a function that adds in some new type of functionality to the function component.
+- In Other words, React Hooks are functions that let us hook into the React state and lifecycle features from function components.
+- By this, we mean that hooks allow us to easily manipulate the state of our functional component without needing to convert them into class components.
+- Hooks don’t work inside classes(because they let you use React without classes). 
+- By using them, we can totally avoid using lifecycle methods, such as componentDidMount, componentDidUpdate, componentWillUnmount.
+
+# Basic Built-in Hooks
+
+- Returns a stateful value and a function to update it — useState.
+- Lets you perform side effects in function components — useEffect.
+- Accepts a context object (the value returned from React.createContext) and returns the current context value, as given by the nearest context provider for the given context — useContext.
+
+# Rules of Hooks
+
+- Don’t call Hooks inside loops, conditions, or nested functions — Only call Hooks at the top level.
+- Don’t call Hooks from regular JavaScript functions — Only call Hooks from React function components.
+
 
 # React Component File
 
@@ -46,11 +71,6 @@ const styles = StyleSheet.create({
 ```ruby
 export default HomeScreen;
 ```
-
-# JSX
-
-- JavaScript extension, or more commonly JSX, is a React extension that allows us to write JavaScript that looks like HTML.
-- The JSX is translated to regular JavaScript at runtime.
 
 # Showing Custom Component
 
@@ -118,6 +138,27 @@ const styles = StyleSheet.create({});
 
 export default ListScreen;
 ```
+
+# useEffect 
+
+- It is a Hook or essentially a function that allows us to run some snippet of code, one time 
+when ever the component is first rendered to the screen.
+
+# useState's Second Argument
+
+```ruby
+useState(() => {})
+```
+- Run the arrow function every time the component is rendered.
+```ruby
+useState(() => {}, [])
+```
+- Run the arrow function only when the component is first rendered.
+```ruby
+useState(() => {}, [value])
+```
+- Run the arrow function only when the component is first rendered, and when the 'value' changes.
+
 # Building List
 
 - primitive Element -> FlatList Element
@@ -270,30 +311,6 @@ import { createStackNavigator } from 'react-navigation-stack';
 - Easy to use, Sensible defaults.
 - Little bit increase our App size.
 - In Project Folder -> Open cmd prompt npm install axios
-
-# Hook
-
-- Hook is a function that adds in some new type of functionality to the function component.
-
-# useEffect 
-
-- It is a Hook or essentially a function that allows us to run some snippet of code, one time 
-when ever the component is first rendered to the screen.
-
-# useState's Second Argument
-
-```ruby
-useState(() => {})
-```
-- Run the arrow function every time the component is rendered.
-```ruby
-useState(() => {}, [])
-```
-- Run the arrow function only when the component is first rendered.
-```ruby
-useState(() => {}, [value])
-```
-- Run the arrow function only when the component is first rendered, and when the 'value' changes.
 
 # Reducers
 

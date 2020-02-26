@@ -10,6 +10,23 @@
     </View>
 ```
 
+# Common Questions and Answers
+
+- Primitive Elements -> Text, View, Image and Button,.. etc..
+- 'JSX' -> <Text style={styles.text}>HelloWorld!!!</Text> -> It passes in to the react native bundler that one is using a 
+  tool called babel to convert that in to javascript code.
+
+- Reference: https://babeljs.io/
+
+- createStackNavigator -> It is a tool Which is used to navigates from one screen to another screen.
+- StyleSheet.create -> To Style the primitive elements.
+
+# Rules of JSX
+
+- If we place a Text inside a View, we should remove the semicolon of Text widget.
+- We can declare a string global and re-use that as, const mTxtHello = 'Hi, How are you?' -> <Text>{mTxtHello}</Text> similary for         array, boolean and int.
+- Similarly,  const mTxtHello = <Text>'Hi, How are you?'</Text> -> {mTxtHello}
+
 # React Hooks
 
 - Hook is a function that adds in some new type of functionality to the function component.
@@ -36,9 +53,6 @@
 - Native knows how to translate, how to compile them to Native platform widgets.
 - We can build own components but these then also in the end has to be made of these built-in components.
 - Core Components -> View, Button, TextInput and image -> these are some components.
-
-
-
 
 # React Component File
 
@@ -106,23 +120,6 @@ export default HomeScreen;
   }
 );
 ```
-# Common Questions and Answers
-
-- Primitive Elements -> Text, View, Image and Button,.. etc..
-- 'JSX' -> <Text style={styles.text}>HelloWorld!!!</Text> -> It passes in to the react native bundler that one is using a 
-  tool called babel to convert that in to javascript code.
-
-- Reference: https://babeljs.io/
-
-- createStackNavigator -> It is a tool Which is used to navigates from one screen to another screen.
-- StyleSheet.create -> To Style the primitive elements.
-
-# Rules of JSX
-
-- If we place a Text inside a View, we should remove the semicolon of Text widget.
-- We can declare a string global and re-use that as, const mTxtHello = 'Hi, How are you?' -> <Text>{mTxtHello}</Text> similary for         array, boolean and int.
-- Similarly,  const mTxtHello = <Text>'Hi, How are you?'</Text> -> {mTxtHello}
-
 # Common Errors
 
 ```ruby

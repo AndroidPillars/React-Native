@@ -15,9 +15,7 @@
 - Primitive Elements -> Text, View, Image and Button,.. etc..
 - 'JSX' -> <Text style={styles.text}>HelloWorld!!!</Text> -> It passes in to the react native bundler that one is using a 
   tool called babel to convert that in to javascript code.
-
 - Reference: https://babeljs.io/
-
 - createStackNavigator -> It is a tool Which is used to navigates from one screen to another screen.
 - StyleSheet.create -> To Style the primitive elements.
 

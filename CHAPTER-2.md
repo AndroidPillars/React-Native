@@ -6,7 +6,7 @@
 
 ```ruby
     <View>
-    <Text style={styles.text}>HelloWorld!!!</Text>
+    <Text>HelloWorld!!!</Text>
     </View>
 ```
 

@@ -25,26 +25,7 @@
 - We can declare a string global and re-use that as, const mTxtHello = 'Hi, How are you?' -> <Text>{mTxtHello}</Text> similary for         array, boolean and int.
 - Similarly,  const mTxtHello = <Text>'Hi, How are you?'</Text> -> {mTxtHello}
 
-# React Hooks
-
-- Hook is a function that adds in some new type of functionality to the function component.
-- In Other words, React Hooks are functions that let us hook into the React state and lifecycle features from function components.
-- By this, we mean that hooks allow us to easily manipulate the state of our functional component without needing to convert them into class components.
-- Hooks don’t work inside classes(because they let you use React without classes). 
-- By using them, we can totally avoid using lifecycle methods, such as componentDidMount, componentDidUpdate, componentWillUnmount.
-
-# Basic Built-in Hooks
-
-- Returns a stateful value and a function to update it — useState.
-- Lets you perform side effects in function components — useEffect.
-- Accepts a context object (the value returned from React.createContext) and returns the current context value, as given by the nearest context provider for the given context — useContext.
-
-# Rules of Hooks
-
-- Don’t call Hooks inside loops, conditions, or nested functions — Only call Hooks at the top level.
-- Don’t call Hooks from regular JavaScript functions — Only call Hooks from React function components.
-
-# Props
+# 2.1.Props
 
 - The properties of React Native components are simply pronounced as props. 
 - In React Native, most of the components can be customized at the time of their creation with different parameters. 
@@ -54,11 +35,30 @@
 - In Other words system to pass data from a parent to child.
 - Work Flow: React Naivgation Stack Navigator -> props -> Navigator to Required Screens 
 
-# State
+# 2.2.React Hooks
+
+- Hook is a function that adds in some new type of functionality to the function component.
+- In Other words, React Hooks are functions that let us hook into the React state and lifecycle features from function components.
+- By this, we mean that hooks allow us to easily manipulate the state of our functional component without needing to convert them into class components.
+- Hooks don’t work inside classes(because they let you use React without classes). 
+- By using them, we can totally avoid using lifecycle methods, such as componentDidMount, componentDidUpdate, componentWillUnmount.
+
+# 2.2.1Basic Built-in Hooks
+
+- Returns a stateful value and a function to update it — useState.
+- Lets you perform side effects in function components — useEffect.
+- Accepts a context object (the value returned from React.createContext) and returns the current context value, as given by the nearest context provider for the given context — useContext.
+
+# 2.2.2.Rules of Hooks
+
+- Don’t call Hooks inside loops, conditions, or nested functions — Only call Hooks at the top level.
+- Don’t call Hooks from regular JavaScript functions — Only call Hooks from React function components.
+
+# 2.2.3.State
 
 - System to track a piece of data that will change over time. If that data changes, our app will 'rerender'.
 
-# Notes on State
+# 2.2.4.Notes on State
 
 - We are using function-based state in a functional component. React also has class based components that have to access state.
 - We never modify a state variable . React doesn't detect the change, Only use the 'setter' function.
@@ -67,7 +67,7 @@
 - When a component is rendered, all of its children get renendered to.
 - A state variable can be passed to a child component ! At that time, the state variable is being used as props.
 
-# Use State
+# 2.2.5.Use State
 
 - The useState hook which allows us to manage state in a functional component.
 

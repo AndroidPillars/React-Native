@@ -43,7 +43,7 @@
 - Hooks don’t work inside classes(because they let you use React without classes). 
 - By using them, we can totally avoid using lifecycle methods, such as componentDidMount, componentDidUpdate, componentWillUnmount.
 
-# 2.2.1Basic Built-in Hooks
+# 2.2.1.Basic Built-in Hooks
 
 - Returns a stateful value and a function to update it — useState.
 - Lets you perform side effects in function components — useEffect.

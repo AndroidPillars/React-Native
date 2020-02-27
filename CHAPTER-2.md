@@ -1,4 +1,4 @@
-# JSX
+# 2.0.JSX
 
 - JSX stands for JavaScript XML. With React, it's an extension for XML-like code for elements and components.
 - In Other words, JavaScript extension, or more commonly JSX, is a React extension that allows us to write JavaScript that looks like HTML.
@@ -10,7 +10,7 @@
     </View>
 ```
 
-# Common Questions and Answers
+# 2.0.1.Common Questions and Answers
 
 - Primitive Elements -> Text, View, Image and Button,.. etc..
 - 'JSX' -> <Text style={styles.text}>HelloWorld!!!</Text> -> It passes in to the react native bundler that one is using a 
@@ -19,7 +19,7 @@
 - createStackNavigator -> It is a tool Which is used to navigates from one screen to another screen.
 - StyleSheet.create -> To Style the primitive elements.
 
-# Rules of JSX
+# 2.0.2.Rules of JSX
 
 - If we place a Text inside a View, we should remove the semicolon of Text widget.
 - We can declare a string global and re-use that as, const mTxtHello = 'Hi, How are you?' -> <Text>{mTxtHello}</Text> similary for         array, boolean and int.
@@ -43,6 +43,29 @@
 
 - Don’t call Hooks inside loops, conditions, or nested functions — Only call Hooks at the top level.
 - Don’t call Hooks from regular JavaScript functions — Only call Hooks from React function components.
+
+# Props
+
+- The properties of React Native components are simply pronounced as props. 
+- In React Native, most of the components can be customized at the time of their creation with different parameters. 
+- These parameters are known as props. 
+- They are immutable, and they cannot be changed.
+- It has lot of properties which we can navigate from one screen to another From React Naivgation Stack Navigator to Required Screens. 
+- In Other words system to pass data from a parent to child.
+- Work Flow: React Naivgation Stack Navigator -> props -> Navigator to Required Screens 
+
+# State
+
+- System to track a piece of data that will change over time. If that data changes, our app will 'rerender'.
+
+# Notes on State
+
+- We are using function-based state in a functional component. React also has class based components that have to access state.
+- We never modify a state variable . React doesn't detect the change, Only use the 'setter' function.
+- We can name the state variable anything we wish.
+- We can track any kind of data that changes over time - a number, string, array of objects, ect
+- When a component is rendered, all of its children get renendered to.
+- A state variable can be passed to a child component ! At that time, the state variable is being used as props.
 
 # Use State
 
@@ -218,26 +241,6 @@ useState(() => {}, [value])
 # Touchable Opacity(i.e) Customizable Component
 
 - Alternative widgets to Button
-
-# Props
-
-- It has lot of properties which we can navigate from one screen to another From React Naivgation Stack 
-Navigator to Required Screens. 
-- In Other words system to pass data from a parent to child.
-- Work Flow: React Naivgation Stack Navigator -> props -> Navigator to Required Screens 
-
-# State
-
-- System to track a piece of data that will change over time. If that data changes, our app will 'rerender'.
-
-# Notes on State
-
-- We are using function-based state in a functional component. React also has class based components that have to access state.
-- We never modify a state variable . React doesn't detect the change, Only use the 'setter' function.
-- We can name the state variable anything we wish.
-- We can track any kind of data that changes over time - a number, string, array of objects, ect
-- When a component is rendered, all of its children get renendered to.
-- A state variable can be passed to a child component ! At that time, the state variable is being used as props.
 
 # Layout Systems
 

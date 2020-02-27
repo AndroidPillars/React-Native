@@ -99,7 +99,27 @@ const styles = StyleSheet.create({
 });
 ```
 
-# React Components
+# useEffect 
+
+- It is a Hook or essentially a function that allows us to run some snippet of code, one time 
+when ever the component is first rendered to the screen.
+
+# useState's Second Argument
+
+```ruby
+useState(() => {})
+```
+- Run the arrow function every time the component is rendered.
+```ruby
+useState(() => {}, [])
+```
+- Run the arrow function only when the component is first rendered.
+```ruby
+useState(() => {}, [value])
+```
+- Run the arrow function only when the component is first rendered, and when the 'value' changes.
+
+# 2.3.React Components
 
 - A component is a very basic element in react-native we can divide the large application into many small Components. 
 - This makes development fast and maintains the code very clear to understand.
@@ -107,7 +127,7 @@ const styles = StyleSheet.create({
 - We can build own components but these then also in the end has to be made of these built-in components.
 - Core Components -> View, Button, TextInput and image -> these are some components.
 
-# React Component File
+# 2.3.1.React Component File
 
 - Part 1 -> Import library we need to create component
 
@@ -155,7 +175,7 @@ const styles = StyleSheet.create({
 export default HomeScreen;
 ```
 
-# Showing Custom Component
+# 2.3.2.Showing Custom Component
 
 - Open App.js 
 - import ComponentScreen from "./src/screens/ComponentScreen";
@@ -173,7 +193,7 @@ export default HomeScreen;
   }
 );
 ```
-# Common Errors
+# 2.4.Common Errors
 
 ```ruby
 return (
@@ -188,7 +208,7 @@ return <View>
     <Text style={styles.text}>HelloWorld!!!</Text>
     </View>
 ```
-# BoilerPlate Code
+# 2.5.BoilerPlate Code
 
 ```ruby
 import React from "react";
@@ -202,26 +222,6 @@ const styles = StyleSheet.create({});
 
 export default ListScreen;
 ```
-
-# useEffect 
-
-- It is a Hook or essentially a function that allows us to run some snippet of code, one time 
-when ever the component is first rendered to the screen.
-
-# useState's Second Argument
-
-```ruby
-useState(() => {})
-```
-- Run the arrow function every time the component is rendered.
-```ruby
-useState(() => {}, [])
-```
-- Run the arrow function only when the component is first rendered.
-```ruby
-useState(() => {}, [value])
-```
-- Run the arrow function only when the component is first rendered, and when the 'value' changes.
 
 # Building List
 

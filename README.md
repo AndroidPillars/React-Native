@@ -3,7 +3,7 @@
 __CHAPTER-1__  
 
     1.0.React Native    
-    1.1.React.js    
+    1.1.React.js    [link](other-directory/CHAPTER-1.md#1.1.React.js)
     1.2.DOM   
     1.3.Why React Native  
     1.4.How React Native Works  

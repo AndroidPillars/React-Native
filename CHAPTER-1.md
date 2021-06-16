@@ -108,7 +108,7 @@ use third-party libraries.
 - You can add native modules written in Java/Objective-C (probably the strongest feature)
 - You will be having control over the builds.
 
-# Disadvantages:
+# Disadvantages
 
 - Needs Android Studio and XCode to run the projects.
 - You can't develop for iOS without having a mac.

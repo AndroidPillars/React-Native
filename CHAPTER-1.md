@@ -1,9 +1,12 @@
-# 1.0.React Native
+# React Native
 
-- React Native is a framework that builds a hierarchy of UI components to build the JavaScript code.
-- It has a set of components for both iOS and Android platforms to build a mobile application with native look and feel.
+## What is React Native?
 
-# 1.1.React.js
+- React Native is a seperate library which gives you a collection of special react components.
+- React Native compiles these components to native widgets for Android and IOS.
+- We can build Application in Android and IOS with single code base using JavaScript.
+
+## React.js
 
 - It is an open source JavaScript library to create user interfaces.
 - Typically used for Web Development.

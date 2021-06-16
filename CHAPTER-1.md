@@ -107,18 +107,18 @@
 - Does not provide JS APIs out of the box, e.g. Push-Notifications, Asset Manager, they need to be manually installed and linked with npm.
 - For example Setting up a working project properly (inlcuding device configuration) is rather complicated and can take time.
 
-# 1.11.Installation
+## Installation
 
 For Windows,
 
-- Visit			-> https://expo.io/learn
+- Visit, https://expo.io/learn
 - Install Node		-> https://nodejs.org/en/download/
 - Cmd Prompt		-> __For Windows,__ npm install expo-cli --global __and For Mac__, sudo npm install expo-cli --global
-- Required Folder 	-> Open Cmd Prompt -> expo init my-new-project -> Choose a template: expo-template-blank
+- For Creating Application, Required Folder 	-> Open Cmd Prompt -> expo init my-new-project -> Choose a template: expo-template-blank
 - Enter the name as my-new-project ->  Use Yarn to install dependencies -> n (It will ask only for the First time)
 - Project path		-> Cmd Prompt -> npm start
 - In Mobile Device	-> Download Expo app from playstore -> Scan the QR Code
-- ctrl+c			-> Close
+- ctrl+c		-> Close
 - Now Install Visual Studio Code -> https://code.visualstudio.com/
 
 # 1.12.Documentation References

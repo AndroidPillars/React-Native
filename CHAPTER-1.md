@@ -38,27 +38,16 @@
 
 ![comparsion (1)](https://user-images.githubusercontent.com/48873155/75276479-39380780-582c-11ea-82f3-80b7c7b14320.png)
 
-# 1.7.Learning React Native
+## Learning React Native
 
 - Getting started with React Native apps can be really hard work.
 - Generally, expo makes working with React Native pretty simple and fun but it's important to understand.
 - In React Native as a developer, we have to find out on which platform our code is running and then
-adjust our styles and logic according to that platform.
-- In React Native we have very little cross-platform styling of components -> So, We have to Style components on our own style or use third-party libraries.
-- Only we have only a basic set of pre-built components -> So, We have to build components on our own or 
-use third-party libraries.
-- For Creating responsive designs where our app looks good on different device sizes and Orientations -> So, We have to write code that is flexible(i.e)Create responsive designs on our own.
-
-# 1.8.Drawbacks
-
-- New Versions every month.
-- Breaking changes do happen.
-- High Dependency on third-party packages that also change.
-- Bugs/ Workarounds required.
-
-# 1.9.Requirements
-
-- JavaScript + React Knowledge
+  adjust our styles and logic according to that platform.
+- In React Native we have very little cross-platform styling of components, we have to Style components on our own style or use third-party libraries.
+- Only we have only a basic set of pre-built components, we have to build components on our own or 
+  use third-party libraries.
+- For Creating responsive designs where our app looks good on different device sizes and Orientations, we have to write code that is flexible(i.e)Create             responsive designs on our own.
 
 ## Expo vs React Native CLI
 

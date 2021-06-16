@@ -60,11 +60,11 @@ use third-party libraries.
 
 - JavaScript + React Knowledge
 
-# 1.10.Expo vs React Native CLI
+## Expo vs React Native CLI
 
 - For Creating React Native app -> Two Options -> Expo CLI and React Native CLI.
 
-# 1.10.1.Expo CLI
+## Expo CLI
 
 - It is the third-party service which is completely free to use.
 - It gives you a kind of "Managed App Development" work flow.
@@ -74,7 +74,7 @@ use third-party libraries.
 
 ![expo_works](https://user-images.githubusercontent.com/48873155/75275942-4accdf80-582b-11ea-91b5-1279381eda62.png)
 
-# Advantages
+## Advantages
 
 - Setting up a project is easy and can be done in minutes
 - You (and other people) can open the project while you're working on it
@@ -84,7 +84,7 @@ use third-party libraries.
 - You can eject it to ExpoKit and integrate native code continuing using some of the Expo features, but not all of them
 - Expo can build .apk and .ipa files (distribution to stores possible with Expo)
 
-# Disadvantages
+## Disadvantages
 
 - You can't add native modules (probably a gamechanger for some)
 - You can't use libraries that use native code in Objective-C/Java
@@ -94,13 +94,14 @@ use third-party libraries.
 - When ejecting to ExpoKit you are limited to the react native version that is supported by ExpoKit at that point in time
 - Debugging in ExpoKit (with native modules) is a lot more complicated, since it mixes two languages and different libraries (no official Expo support anymore)
 
-# 1.10.2.React Native CLI
+## React Native CLI
 
 - React Native CLI was managed by React Native Team and React Native community.
 - Bare-bone Development, which means you get a native app, you need to install Android Studio and Xcode to build that app and you need
-to configure and manage a lot on your own.
-- Almost no Convenience or Utility Freatures(i.e) If you wanna to use some native device features like device camera, adding third party packages where the set up is quite complex.
-- Defualt CLI to generate a project. Requires a lot of work to add in common Features.
+  to configure and manage a lot on your own.
+- Almost no Convenience or Utility Freatures(i.e) If you wanna to use some native device features like device camera, adding third party packages where the set up   is quite complex.
+- Defualt CLI to generate a project. 
+- Requires a lot of work to add in common Features.
 
 # Advantages
 
@@ -109,13 +110,13 @@ to configure and manage a lot on your own.
 
 # Disadvantages:
 
-- Needs Android Studio and XCode to run the projects
-- You can't develop for iOS without having a mac
-- Device has to be connected via USB to use it for testing
-- Fonts need to be imported manually in XCode
-- If you want to share the app you need to send the whole .apk / .ipa file
-- Does not provide JS APIs out of the box, e.g. Push-Notifications, Asset Manager, they need to be manually installed and linked with npm for example
-- Setting up a working project properly (inlcuding device configuration) is rather complicated and can take time.
+- Needs Android Studio and XCode to run the projects.
+- You can't develop for iOS without having a mac.
+- Device has to be connected via USB to use it for testing.
+- Fonts need to be imported manually in XCode.
+- If you want to share the app you need to send the whole .apk / .ipa file.
+- Does not provide JS APIs out of the box, e.g. Push-Notifications, Asset Manager, they need to be manually installed and linked with npm.
+- For example Setting up a working project properly (inlcuding device configuration) is rather complicated and can take time.
 
 # 1.11.Installation
 

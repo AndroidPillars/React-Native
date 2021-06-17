@@ -13,7 +13,7 @@
 - ReactDOM.render(...) adds the web support.
 - React itself is Platform agnostic.
 
-# 1.2.DOM
+## DOM
 
  - DOM stands for Document Object Model. 
  - It is the structure representation of all nodes in HTML document. 
@@ -143,6 +143,8 @@ expo start --android	-> Start the Project in Android
 ```
 - Visual Studio Code -> File -> Preferences -> Color Theme -> For Setting Theme
 - View -> Extensions -> Material Icon Theme -> Install
+- XCode -> Preferences -> Location -> CommandLineTools
+- XCode -> Open Developer Tool -> Simulator
 
 
 ## Common Errors

@@ -20,6 +20,22 @@
 - createStackNavigator -> It is a tool Which is used to navigates from one screen to another screen.
 - StyleSheet.create -> To Style the primitive elements.
 
+## Rules of JSX
+
+- If we place a Text inside a View, we should remove the semicolon of Text widget.
+- We can declare a string global and re-use that as, const mTxtHello = 'Hi, How are you?' -> <Text>{mTxtHello}</Text> similary for array, boolean and int.
+- Similarly, const mTxtHello = <Text>'Hi, How are you?'</Text> -> {mTxtHello}
+
+## Props
+
+- The properties of React Native components are simply pronounced as props. 
+- In React Native, most of the components can be customized at the time of their creation with different parameters. 
+- These parameters are known as props. 
+- They are immutable, and they cannot be changed.
+- It has lot of properties which we can navigate from one screen to another From React Naivgation Stack Navigator to Required Screens. 
+- In Other words system to pass data from a parent to child.
+- Work Flow: React Naivgation Stack Navigator -> props -> Navigator to Required Screens 
+
 ![image](https://user-images.githubusercontent.com/48873155/122450363-8cefd680-cfc4-11eb-91d3-f10e315edd80.png)
 
 
@@ -106,23 +122,6 @@ const styles = StyleSheet.create({
   },
 });
 ```
-
-
-# 2.0.2.Rules of JSX
-
-- If we place a Text inside a View, we should remove the semicolon of Text widget.
-- We can declare a string global and re-use that as, const mTxtHello = 'Hi, How are you?' -> <Text>{mTxtHello}</Text> similary for         array, boolean and int.
-- Similarly,  const mTxtHello = <Text>'Hi, How are you?'</Text> -> {mTxtHello}
-
-# 2.1.Props
-
-- The properties of React Native components are simply pronounced as props. 
-- In React Native, most of the components can be customized at the time of their creation with different parameters. 
-- These parameters are known as props. 
-- They are immutable, and they cannot be changed.
-- It has lot of properties which we can navigate from one screen to another From React Naivgation Stack Navigator to Required Screens. 
-- In Other words system to pass data from a parent to child.
-- Work Flow: React Naivgation Stack Navigator -> props -> Navigator to Required Screens 
 
 # 2.2.React Hooks
 

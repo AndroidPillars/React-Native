@@ -88,16 +88,16 @@
 - React Native CLI was managed by React Native Team and React Native community.
 - Bare-bone Development, which means you get a native app, you need to install Android Studio and Xcode to build that app and you need
   to configure and manage a lot on your own.
-- Almost no Convenience or Utility Freatures(i.e) If you wanna to use some native device features like device camera, adding third party packages where the set up   is quite complex.
+- Almost no Convenience or Utility Freatures(i.e) If you wanna to use some native device features like device camera, adding third party packages where the set up   is quite       complex.
 - Defualt CLI to generate a project. 
 - Requires a lot of work to add in common Features.
 
-# Advantages
+## Advantages
 
 - You can add native modules written in Java/Objective-C (probably the strongest feature)
 - You will be having control over the builds.
 
-# Disadvantages
+## Disadvantages
 
 - Needs Android Studio and XCode to run the projects.
 - You can't develop for iOS without having a mac.
@@ -121,19 +121,18 @@ For Windows,
 - ctrl+c		-> Close
 - Now Install Visual Studio Code -> https://code.visualstudio.com/
 
-# 1.12.Documentation References
+## Documentation References
 
 - https://expo.io/learn
 - https://facebook.github.io/react-native/docs/getting-started
 
-# 1.13.Tools References
+## Tools References
 
 - https://git-scm.com/
 - https://www.yelp.com/fusion
 
 
-
-# 1.14.Points to get Remember
+## Points to get Remember
 
 ```ruby
 expo start		-> Start the Project
@@ -143,7 +142,7 @@ expo start --android	-> Start the Project in Android
 - View -> Extensions -> Material Icon Theme -> Install
 
 
-# 1.15.Common Errors
+## Common Errors
 
 - warn Package react-native-gesture-handler has been ignored because it contains invalid configuration. Cannot find module 'react-native-gesture-handler\package.json',
 ```ruby

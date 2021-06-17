@@ -109,17 +109,20 @@
 
 ## Installation
 
-For Windows,
-
+- Install Visual Studio Code -> https://code.visualstudio.com/
+- Android Studio -> https://developer.android.com/studio
+- Xcode -> https://developer.apple.com/xcode/
 - Visit, https://expo.io/learn
 - Install Node		-> https://nodejs.org/en/download/
 - Cmd Prompt		-> __For Windows,__ npm install expo-cli --global __and For Mac__, sudo npm install expo-cli --global
+
+## Creating Application
+
 - For Creating Application, Required Folder 	-> Open Cmd Prompt -> expo init my-new-project -> Choose a template: expo-template-blank
 - Enter the name as my-new-project ->  Use Yarn to install dependencies -> n (It will ask only for the First time)
 - Project path		-> Cmd Prompt -> npm start
 - In Mobile Device	-> Download Expo app from playstore -> Scan the QR Code
 - ctrl+c		-> Close
-- Now Install Visual Studio Code -> https://code.visualstudio.com/
 
 ## Documentation References
 

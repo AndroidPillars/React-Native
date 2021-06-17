@@ -10,6 +10,16 @@
     </View>
 ```
 
+
+## Common Questions and Answers
+
+- Primitive Elements -> Text, View, Image and Button,.. etc..
+- 'JSX' -> ```<Text style={styles.text}>HelloWorld!!!</Text>``` -> It passes in to the react native bundler that one is using a 
+  tool called babel to convert that in to javascript code.
+- Reference: https://babeljs.io/
+- createStackNavigator -> It is a tool Which is used to navigates from one screen to another screen.
+- StyleSheet.create -> To Style the primitive elements.
+
 ## Inline Styles
 
 - Inline styles are very easy to apply but it gets more complex to read the code.
@@ -94,14 +104,6 @@ const styles = StyleSheet.create({
 });
 ```
 
-# 2.0.1.Common Questions and Answers
-
-- Primitive Elements -> Text, View, Image and Button,.. etc..
-- 'JSX' -> <Text style={styles.text}>HelloWorld!!!</Text> -> It passes in to the react native bundler that one is using a 
-  tool called babel to convert that in to javascript code.
-- Reference: https://babeljs.io/
-- createStackNavigator -> It is a tool Which is used to navigates from one screen to another screen.
-- StyleSheet.create -> To Style the primitive elements.
 
 # 2.0.2.Rules of JSX
 

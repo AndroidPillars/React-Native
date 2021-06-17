@@ -124,7 +124,7 @@
 - In Mobile Device	-> Download Expo app from playstore -> Scan the QR Code
 - ctrl+c		-> Close  
 
-__In App.js__
+__Example 1__
 
 
 ```ruby
@@ -150,6 +150,8 @@ const styles = StyleSheet.create({
 
 export default ComponentsScreen;
 ```
+
+__Example 2__
 
 ```ruby
 import React, { useState } from "react";

@@ -9,7 +9,7 @@ export default function App() {
     <View
       style={{
         padding: 50, // padding
-        flexDirection: "row", //Orientation
+        flexDirection: "row", // Orientation
         width: "80%", // width
         height: 300, // height
       }}

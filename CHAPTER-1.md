@@ -126,6 +126,31 @@
 
 __In App.js__
 
+
+```ruby
+import React, { useState } from "react";
+import { StyleSheet, Text, View, Button } from "react-native";
+
+const ComponentsScreen = () => {
+  return (
+    <View style={styles.container}>
+      <Text>Hello World!!!</Text>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+});
+
+export default ComponentsScreen;
+```
+
 ```ruby
 import React, { useState } from "react";
 import { StyleSheet, Text, View, Button } from "react-native";

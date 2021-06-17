@@ -1,3 +1,15 @@
+## JSX
+
+- JSX stands for JavaScript XML. With React, it's an extension for XML-like code for elements and components.
+- In Other words, JavaScript extension, or more commonly JSX, is a React extension that allows us to write JavaScript that looks like HTML.
+- The JSX is translated to regular JavaScript at runtime.
+
+```ruby
+    <View>
+    <Text>HelloWorld!!!</Text>
+    </View>
+```
+
 ## Inline Styles
 
 - Inline styles are very easy to apply but it gets more complex to read the code.
@@ -80,18 +92,6 @@ const styles = StyleSheet.create({
     padding: 10,
   },
 });
-```
-
-# 2.0.JSX
-
-- JSX stands for JavaScript XML. With React, it's an extension for XML-like code for elements and components.
-- In Other words, JavaScript extension, or more commonly JSX, is a React extension that allows us to write JavaScript that looks like HTML.
-- The JSX is translated to regular JavaScript at runtime.
-
-```ruby
-    <View>
-    <Text>HelloWorld!!!</Text>
-    </View>
 ```
 
 # 2.0.1.Common Questions and Answers

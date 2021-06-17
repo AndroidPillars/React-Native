@@ -1,4 +1,6 @@
+## Inline Styles
 
+- Inline styles are very easy to apply but it gets more complex to read the code.
 
 ```ruby
 import React from "react";

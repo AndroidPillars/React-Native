@@ -1,3 +1,48 @@
+
+
+```ruby
+import React from "react";
+import { Text, View } from "react-native";
+
+export default function App() {
+  return (
+    <View
+      style={{
+        padding: 50, // padding
+        flexDirection: "row", //Orientation
+        width: "80%", // width
+        height: 300, // height
+      }}
+    >
+      <View
+        style={{
+          backgroundColor: "red", // background color
+          flex: 1, // weight
+          justifyContent: "center", // MainAxis Alignment
+          alignItems: "center", // CrossAxis Alignment
+          margin: 10,
+        }}
+        i
+      >
+        <Text>1</Text>
+      </View>
+      <View
+        style={{
+          backgroundColor: "blue",
+          flex: 2,
+          justifyContent: "center",
+          alignItems: "center",
+          margin: 10,
+        }}
+      >
+        <Text>2</Text>
+      </View>
+    </View>
+  );
+}
+```
+
+
 # 2.0.JSX
 
 - JSX stands for JavaScript XML. With React, it's an extension for XML-like code for elements and components.

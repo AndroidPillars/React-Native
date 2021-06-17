@@ -122,7 +122,37 @@
 - Enter the name as my-new-project ->  Use Yarn to install dependencies -> n (It will ask only for the First time)
 - Project path		-> Cmd Prompt -> npm start
 - In Mobile Device	-> Download Expo app from playstore -> Scan the QR Code
-- ctrl+c		-> Close
+- ctrl+c		-> Close  
+
+__In App.js__
+
+```ruby
+import React, { useState } from "react";
+import { StyleSheet, Text, View, Button } from "react-native";
+
+export default function App() {
+  const [outputText, setOutputText] = useState("Default value of the Text");
+
+  return (
+    <View style={styles.container}>
+      <Text>{outputText}</Text>
+      <Button
+        title="Change Text"
+        onPress={() => setOutputText("Changed value of the Text")}
+      />
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+});
+```
 
 ## Documentation References
 

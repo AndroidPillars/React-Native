@@ -20,6 +20,9 @@
 - createStackNavigator -> It is a tool Which is used to navigates from one screen to another screen.
 - StyleSheet.create -> To Style the primitive elements.
 
+![image](https://user-images.githubusercontent.com/48873155/122450363-8cefd680-cfc4-11eb-91d3-f10e315edd80.png)
+
+
 ## Inline Styles
 
 - Inline styles are very easy to apply but it gets more complex to read the code.

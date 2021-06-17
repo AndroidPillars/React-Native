@@ -44,6 +44,9 @@ export default function App() {
 }
 ```
 
+## StyleSheet Objects
+
+- It is very easy to read and it will automatically add some validation(i.e.) If you are using incorrect style property it will through an error.
 
 # 2.0.JSX
 

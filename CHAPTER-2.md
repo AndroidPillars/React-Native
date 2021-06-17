@@ -48,6 +48,40 @@ export default function App() {
 
 - It is very easy to read and it will automatically add some validation(i.e.) If you are using incorrect style property it will through an error.
 
+```ruby
+import React from "react";
+import { StyleSheet, Text, View, TextInput, Button } from "react-native";
+
+export default function App() {
+  return (
+    <View style={styles.screen}>
+      <View style={styles.inputContainer}>
+        <TextInput placeholder="Enter the name" style={styles.input} />
+        <Button title="ADD" />
+      </View>
+      <View />
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  screen: {
+    padding: 50,
+  },
+  inputContainer: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
+  input: {
+    width: "80%",
+    borderColor: "black",
+    borderWidth: 1,
+    padding: 10,
+  },
+});
+```
+
 # 2.0.JSX
 
 - JSX stands for JavaScript XML. With React, it's an extension for XML-like code for elements and components.

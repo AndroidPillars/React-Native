@@ -332,26 +332,29 @@ export default ListScreen;
 
 - Alternative widgets to Button
 
-# Layout Systems
+## Layout Systems
 
-# Box Object Model
+- There are three different systems or properties that we are going to use to control how   elements are displayed and react.
 
-- Properties like Border, Margin, Padding and the Width and Height of some element. We
-use this to affect the positioning of single element.
+## Box Object Model
+
+- Properties like Border, Margin, Padding and the Width and Height of some element. 
+- We use this to affect the positioning of single element.
 - Content -> Padding -> Border -> Margin
 - Height  -> paddingTop -> borderTopWidth -> marginTop
 - For Parent -> alignItems, justifyContent and flexDirection
-- Short Cuts -> margin, marginVertical, marginHorizontal, padding, paddingVertical, paddingHorizontal and borderWidth
+- Short Cuts -> margin, marginVertical, marginHorizontal, padding, paddingVertical,         paddingHorizontal and borderWidth
 
 # Flex Box
 
-- The Flex Box system is considered from how we layout some number of child elements that has own number of common parent. We use this to position mulitple elements with a common parent. 
-- For Child  -> flex, alignSelf
+- The Flex Box system is considered from how we layout some number of child elements that   has own number of common parent. 
+- We use this to position mulitple elements with a common parent. 
+- For Child -> flex, alignSelf
 
 # Position
 
-- How to position a element inside of a child. One single child inside of a parent. We use 
-this to override Box object model + Flex Box
+- How to position a element inside of a child. 
+- One single child inside of a parent we use this to override Box object model + Flex Box.
 
 # Layout  Systems
 

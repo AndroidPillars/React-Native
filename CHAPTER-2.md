@@ -343,7 +343,10 @@ export default ListScreen;
 - Content -> Padding -> Border -> Margin
 - Height  -> paddingTop -> borderTopWidth -> marginTop
 - For Parent -> alignItems, justifyContent and flexDirection
-- Short Cuts -> margin, marginVertical, marginHorizontal, padding, paddingVertical,         paddingHorizontal and borderWidth
+- Short Cuts -> margin, marginVertical, marginHorizontal, padding, paddingVertical, paddingHorizontal and borderWidth
+
+![image](https://user-images.githubusercontent.com/48873155/122654871-dcbcd200-d16b-11eb-93aa-b878ba9acb9e.png)
+
 
 # Flex Box
 

@@ -281,7 +281,7 @@ export default HomeScreen;
   }
 );
 ```
-# 2.4.Common Errors
+## Common Errors
 
 ```ruby
 return (
@@ -296,7 +296,7 @@ return <View>
     <Text style={styles.text}>HelloWorld!!!</Text>
     </View>
 ```
-# 2.5.BoilerPlate Code
+## BoilerPlate Code
 
 ```ruby
 import React from "react";
@@ -347,36 +347,36 @@ export default ListScreen;
 ![image](https://user-images.githubusercontent.com/48873155/122654871-dcbcd200-d16b-11eb-93aa-b878ba9acb9e.png)
 
 
-# Flex Box
+## Flex Box
 
 - The Flex Box system is considered from how we layout some number of child elements that   has own number of common parent. 
 - We use this to position mulitple elements with a common parent. 
 - For Parent we use -> alignItems, justifyContent and flexDirection
 - For Child we use -> flex, alignSelf
 
-# Position
+## Position
 
 - How to position a element inside of a child. 
 - One single child inside of a parent we use this to override Box object model + Flex Box.
 
-# Layout  Systems
+## Layout  Systems
 
 - Apply box object model Class -> Is position 'absolute'
 - No -> Apply all flex box rules, Considering siblings -> place element inside parent -> Apply top, left, right and bottom
 - Yes -> Apply some flex box rules, ignore all siblings -> Apply top, left, right and bottom.
 
-# Parent Properties
+## Parent Properties
 
 - alignItems -> Similar to MatchParent and WrapContent.
 - JustifyContent -> similar to that of setting gravity.
 - flexDirection -> Indicates horizontal and Vertical position.
 
-# Child Properties
+## Child Properties
 
 - flex -> Similar to that of weight .
 - alignself -> Similar to that of MatchParent and WrapContent also think that of parent right(i.e)It override the parent element.
 
-# Position Properties
+## Position Properties
 
 - position -> Similar to that of Frame Layout, Relative Layout and Linear Layout.
 - top,bottom,left and Right -> Similar to that of margin.

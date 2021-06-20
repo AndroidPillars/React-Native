@@ -342,7 +342,6 @@ export default ListScreen;
 - We use this to affect the positioning of single element.
 - Content -> Padding -> Border -> Margin
 - Height  -> paddingTop -> borderTopWidth -> marginTop
-- For Parent -> alignItems, justifyContent and flexDirection
 - Short Cuts -> margin, marginVertical, marginHorizontal, padding, paddingVertical, paddingHorizontal and borderWidth
 
 ![image](https://user-images.githubusercontent.com/48873155/122654871-dcbcd200-d16b-11eb-93aa-b878ba9acb9e.png)
@@ -352,7 +351,8 @@ export default ListScreen;
 
 - The Flex Box system is considered from how we layout some number of child elements that   has own number of common parent. 
 - We use this to position mulitple elements with a common parent. 
-- For Child -> flex, alignSelf
+- For Parent we use -> alignItems, justifyContent and flexDirection
+- For Child we use -> flex, alignSelf
 
 # Position
 

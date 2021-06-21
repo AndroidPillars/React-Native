@@ -483,3 +483,4 @@ payload -> Some data that is critical to the change Operation.
 - Open developer menu -> Mac: ⌘+D for iOS or ⌘M for Android iOS and Windows/Linux: Shake Android phone.
 - Select Debug JS Remotely and it will navigate it to a browser.
 - Note: Check the expo browser whether it is connected to a LAN.
+- Also Visit, https://github.com/jhen0409/react-native-debugger for advanced React Native Debugger.

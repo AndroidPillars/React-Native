@@ -1,3 +1,13 @@
+## Debugging React Native Apps
+
+- Debugging is the process of detecting and removing of existing and potential errors (also called as ‘bugs’) in our code that make our application to crash.
+- First Option by using __console.log()__ which it is a function that writes a message to log on the debugging console.
+- Second Option by using the Remote debugger and Breakpoints.
+- Open developer menu -> Mac: ⌘+D for iOS or ⌘M for Android iOS and Windows/Linux: Shake Android phone.
+- Select Debug JS Remotely and it will navigate it to a browser.
+- Note: Check the expo browser whether it is connected to a LAN.
+- Also Visit, https://github.com/jhen0409/react-native-debugger for advanced React Native Debugger.
+
 ## JSX
 
 - JSX stands for JavaScript XML. With React, it's an extension for XML-like code for elements and components.

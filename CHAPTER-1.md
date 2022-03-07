@@ -2,9 +2,12 @@
 
 ## What is React Native?
 
+- React Native is built on top of React but instead of targeting browser it targets mobile platform.
+- React Native is a framework for building native apps for Android and IOS using JavaScript.
 - React Native is a seperate library which gives you a collection of special react components.
 - React Native compiles these components to native widgets for Android and IOS.
 - We can build Application in Android and IOS with single code base using JavaScript.
+- Applications using React Native are Facebook, Instagram, pininterest, Skype and UberEats.
 
 ## React.js
 
